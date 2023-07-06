@@ -62,16 +62,29 @@
 }
 
 .btn{
-    padding: 10px 20px;
-    background-color: orangered;
-    font-size: 19px;
-    border: none;
+    padding:10px 20px;
+    background-color:red;
     color: white;
-    font-weight: 800;
-    border-radius: 5px;
+    border: none;
 }
 
 .btn:hover{
     background-color: rgb(0, 0, 0);
     
+}
+
+/* abut section style start here */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 10px;
 }
